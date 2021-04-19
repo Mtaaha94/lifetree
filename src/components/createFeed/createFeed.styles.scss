@@ -1,0 +1,42 @@
+.create-feed {
+  background-color: white;
+  padding: 15px;
+  height: 90px;
+
+  .user-info {
+    display: flex;
+
+    .text {
+      margin-left: 12px;
+      margin-top: 8px;
+      font-size: 12px;
+      color: #a5a7a9;
+      .user-name {
+        font-size: 14px;
+        color: black;
+      }
+    }
+  }
+  .input {
+    background-color: #f3f3f4;
+    border-color: #f3f3f4;
+    outline: 0px;
+    outline-color: #a5a7a9;
+
+    .MuiOutlinedInput-input {
+      padding: 18.5px 14px;
+      border: 0px;
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .user-info {
+    .text {
+      .user-name {
+        display: none;
+      }
+    }
+  }
+}

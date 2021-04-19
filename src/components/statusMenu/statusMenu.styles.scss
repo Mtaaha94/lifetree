@@ -1,0 +1,30 @@
+.status-menu {
+  background-color: #f8f8f9;
+  padding: 20px;
+  border: 1px solid #f8f8f9;
+
+  .family,
+  .friends {
+    margin-top: 5px;
+
+    .text {
+      &:hover {
+        .line {
+          width: 20%;
+        }
+      }
+      .line {
+        border-bottom: 2px solid #88b235;
+        width: 7%;
+        margin-top: -10px;
+        transition: all 0.3s ease-in-out;
+      }
+      p {
+        cursor: pointer;
+        font-size: 16px;
+        text-align: left;
+        color: #a5a7a9;
+      }
+    }
+  }
+}
